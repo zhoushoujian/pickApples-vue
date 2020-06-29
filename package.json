@@ -9,6 +9,11 @@
     "build": "node build/build.js",
     "eslint": "eslint --ext .js,.vue src"
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run eslint"
+    }
+  },
   "dependencies": {
     "vue": "^2.0.1",
     "vue-router": "^2.1.1"
@@ -56,6 +61,7 @@
     "webpack": "^1.13.2",
     "webpack-dev-middleware": "^1.8.3",
     "webpack-hot-middleware": "^2.12.2",
-    "webpack-merge": "^0.14.1"
+    "webpack-merge": "^0.14.1",
+    "husky": "^1.1.2"
   }
 }
