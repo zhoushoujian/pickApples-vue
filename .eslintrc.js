@@ -11,7 +11,6 @@ module.exports = {
   "plugins": [
     "html", "import"
   ], //插件，此插件用于识别文件中的js代码，没有MIME类型标识没有script标签也可以识别到，因此拿来识别.vue文件中的js代码
-  // "extends": "eslint:recommended",//eslint默认推荐规则这里作了注释，使用我们定义的规则
   "parserOptions": {
     "sourceType": "module",
     "ecmaVersion": 7,
