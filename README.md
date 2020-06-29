@@ -1,13 +1,14 @@
-# vue实现摘苹果的demo
+# vue 实现摘苹果的 demo
 
-## 此demo实现三大功能
+## 此 demo 实现三大功能
+
 1. 点击摘苹果，会更新当前苹果的数量和当前苹果的总重量
 2. 点击改变重量，会更新当前苹果的总重量和当前苹果的总重量
 3. 点击吃掉，会更新吃掉苹果的数量和重量，当前苹果数量和重量
 
 ## Build Setup
 
-``` bash
+```bash
 # 下载或克隆下来，然后安装依赖
 npm install
 
@@ -22,8 +23,11 @@ npm run eslint
 ```
 
 ## 效果图
+
 ![效果图](https://github.com/zhoushoujian/pickApples-vue/blob/master/view.png)
 
 ## 其他版本
-```react```: https://github.com/zhoushoujian/pickApples-react
-```redux```: https://github.com/zhoushoujian/pickApples-redux
+
+`react`: https://github.com/zhoushoujian/pickApples-react
+
+`redux`: https://github.com/zhoushoujian/pickApples-redux
