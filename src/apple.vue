@@ -93,6 +93,7 @@ export default {
   },
   computed: {},
   created: function (){
+    window.self1 = this
     console.log("dom mounted")
   }
 };

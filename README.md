@@ -28,6 +28,8 @@ npm run eslint
 
 ## 其他版本
 
+`vuex`: https://github.com/zhoushoujian/pickApples-vuex
+
 `react`: https://github.com/zhoushoujian/pickApples-react
 
 `redux`: https://github.com/zhoushoujian/pickApples-redux
